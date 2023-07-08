@@ -1,4 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/no-unescaped-entities */
+
+
 import Head from "next/head";
 
 import {
