@@ -31,6 +31,9 @@ import web8 from "../public/web8.png";
 // import web9 from "../public/web9.png";
 import web10 from "../public/web10.png";
 import web11 from "../public/web11.png";
+import web12 from "../public/web12.png";
+import web13 from "../public/web13.png";
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -85,7 +88,7 @@ export default function Home() {
             Full Stack Software Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Welcome to my digital nook. I'm a self-taught Full Stack Software Develope  and here, I share my thoughts and what I've learned along the way.
+            Welcome to my digital nook. I'm a self-taught Full Stack Software Develope and here, I share my thoughts and what I've learned along the way.
           
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
@@ -267,14 +270,36 @@ export default function Home() {
                       decisions and also get a user friendly system to get the location and the density of the
                       passengers in the bus.The most important thing is that ,this processed system reduce the
                       wait time and the uncertainity time while increasing the user satisfication  . <span  className="text-teal-800">Flutter | Firebase</span></p> */}
-                      
-
-
-       
+                             
           </div>
+          
+                            
+         
 
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-          <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            <div className="basis-1/4 flex-1 ">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web12}
+                onClick={() => handleImageClick(web12)}  />   
+                  
+                  Our React app is an e-commerce shopping platform that allows users to browse and purchase products. 
+                  The main components include the 'Shop' page and the 'Cart' page. The 'Shop' page displays a variety of products with their names, 
+                  prices, and images. Users can easily add items to their shopping cart by clicking on them. The 'Cart' page shows a summary of the
+                   selected items, giving users the option to review and modify their choices before proceeding to checkout
+                  . The app efficiently handles user interactions with shop items, providing a smooth and pleasant shopping experience.   <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/reacte-e-com-">
+               source code </a>
+          
+            </div>
+            </div>
+
+            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
@@ -289,10 +314,35 @@ export default function Home() {
                and the Image component provided by Next.js. These technologies are used to create a
                 visually appealing and interactive portfolio website.   <br/>
                 <br/>
-                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md ml-8" href="#">
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/portfolioX">
                 source code </a>
             </div>
             </div>
+
+
+            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            <div className="basis-1/4 flex-1 ">
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web13}
+                onClick={() => handleImageClick(web13)}
+              />   
+                  The React Fundamentals app is a beginner-friendly demonstration of key React concepts, 
+                  such as components, state management, props, event handling, conditional rendering, list handling, 
+                  and routing using React Router. It serves as a foundational learning tool to understand React's essential 
+                  building blocks,
+                   empowering developers to create interactive and dynamic user interfaces effectively.
+                 <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>
+            </div>
+            </div>
+
+            
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -307,9 +357,15 @@ export default function Home() {
               The PHP and MySQL Visitor Management System is a web application that efficiently manages
                and tracks visitors. It allows creating, reading, updating, and deleting visitor records using 
                PHP for server-side logic and MySQL for data storage.
-               It simplifies visitor tracking, enhances security, and improves the visitor experience.            
+               It simplifies visitor tracking, enhances security, and improves the visitor experience.   
+               <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>         
             </div>
             </div>
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -323,8 +379,16 @@ export default function Home() {
               <br />    
               The provided code is for a meal search app that allows users to search for meals based on ingredients. It retrieves meal data from an API 
               and displays the results in the UI. Users can view recipe details for each meal, including instructions and a video link
+
+              <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>
             </div>
             </div>
+
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -341,9 +405,14 @@ export default function Home() {
               reassign employees to teams. The app provides a user-friendly interface to easily track and organize 
               employee assignments. Additionally, 
               it offers a grouped team members view to display the number of employees in each team.
-              <br />           
+              <br/>
+                           <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>   
             </div>
             </div>
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -359,9 +428,16 @@ export default function Home() {
                It provides a user-friendly interface with features such as product filtering, sorting, 
                and a shopping cart to manage selected items. Users can search for products, view product details, 
                add items to the cart, and proceed to checkout. The app also includes a 
-              rating system and options to filter products based on availability and fast delivery.        
+              rating system and options to filter products based on availability and fast delivery.      
+              <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>  
             </div>
             </div>
+
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -379,8 +455,14 @@ export default function Home() {
               a user-friendly interface and robust functionality, 
               it improves overall efficiency and organization in hospitals.
               <br></br>       
+            
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>
             </div>
             </div>
+
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -395,9 +477,17 @@ export default function Home() {
               The provided Flutter app calculates and displays the BMI (Body Mass Index) based on user input of height and 
               weight. It offers buttons to adjust the height and weight values and provides a visual representation of 
               gender selection. The app then determines the BMI category
-               (Overweight, Normal, or Underweight) and presents the calculated BMI along with the corresponding result.        
+               (Overweight, Normal, or Underweight) and presents the calculated BMI along with the corresponding result.     
+
+                <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>   
             </div>
             </div>
+
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -418,8 +508,14 @@ export default function Home() {
                   list of tasks. Users can enter a task in the input field,
                click the "Add" button to add it to the list, and view their tasks for the day.    
                <br />  
+
+               <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>
             </div>
             </div>
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -435,9 +531,15 @@ export default function Home() {
               It includes routes for user login, token generation, and protected routes. It ensures that only authenticated
                users with valid access tokens can access protected routes.
                This app provides a secure and efficient way to implement authentication in Node.js applications.
-              <br />       
+              <br />      
+              <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a> 
             </div>
             </div>
+
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -454,9 +556,16 @@ export default function Home() {
               . It offers a range of design options, including text and image customization, allowing users to
               create unique and personalized mugs. With a user-friendly interface, customers can easily navigate 
               through the available designs, preview their customized mug, and place their order hassle-free.
-               It's a convenient and efficient platform for creating personalized mugs online        
+               It's a convenient and efficient platform for creating personalized mugs online    
+               <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/react-fundamentals">
+                source code </a>  
+
             </div>
             </div>
+
+{/* 
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
@@ -466,11 +575,11 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
                 onClick={() => handleImageClick(web1)}
-
               />            
             </div>
-            </div>
-            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            </div> */}
+
+            {/* <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
@@ -479,7 +588,6 @@ export default function Home() {
                 layout="responsive"
                 src={web1}
                 onClick={() => handleImageClick(web1)}
-
               />    
                <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
@@ -497,11 +605,21 @@ export default function Home() {
               <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1 align-l rounded-md ml-8" href="#">
                 source code </a>        
             </div>
-            </div>
+            </div> */}
 
             
           </div>
         </section>
+
+
+
+
+
+
+
+
+
+        
 
         {showModal && (
         <div className="modal">
