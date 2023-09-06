@@ -33,6 +33,7 @@ import web10 from "../public/web10.png";
 import web11 from "../public/web11.png";
 import web12 from "../public/web12.png";
 import web13 from "../public/web13.png";
+import web16 from "../public/web16.png";
 
 
 export default function Home() {
@@ -277,11 +278,32 @@ export default function Home() {
          
 
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
                 className="rounded-lg object-cover"
-                width={"100%"}
+                width={"80%"}
+                height={"130%"}
+                layout="responsive"
+                src={web16}
+                onClick={() => handleImageClick(web16)}  />   
+                  Spring Boot (API)  + React Front  CRUD 
+                  with MYSQL database 
+                 
+                 
+                    <br/>
+                <br/>
+                <a className= "bg-gradient-to-r bg-cyan-500  to-teal-500 text-white px-4 py-1  rounded-md " href="https://github.com/kavindugunathilaka/reacte-e-com-">
+               source code </a>
+          
+            </div>
+            </div>
+            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            <div className="basis-1/4 flex-1 ">
+              <Image
+                className="rounded-lg object-cover"
+                width={"80%"}
                 height={"100%"}
                 layout="responsive"
                 src={web12}
@@ -298,7 +320,6 @@ export default function Home() {
           
             </div>
             </div>
-
             <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
             <div className="basis-1/4 flex-1 ">
               <Image
