@@ -561,12 +561,12 @@ export default function Home() {
             </div>
 
 
-            <div className="basis-1/4 flex-1 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
-            <div className="basis-1/4 flex-1 ">
+            <div className="basis-1/3 flex-4 text-center shadow-lg shadow-zinc-900 p-10 rounded-xl my-10  dark:bg-white">
+            <div className="basis-1/4 flex-2 ">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
-                height={"100%"}
+                height={"80%"}
                 layout="responsive"
                 src={web11}
                 onClick={() => handleImageClick(web11)}
